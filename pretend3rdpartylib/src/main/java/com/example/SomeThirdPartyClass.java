@@ -2,7 +2,7 @@ package com.example;
 
 public class SomeThirdPartyClass {
 
-    public static int[] sort(int[] input) {
+    public int[] sort(int[] input) {
         for (int i = 1; i < input.length; i++) {
             int next = input[i];
             // find the insertion location while moving all larger element up
