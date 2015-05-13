@@ -5,9 +5,47 @@
 
     <include layout="@layout/toolbar" />
 
-    <TextView android:text="Hello outputs..."
+    <LinearLayout
         android:layout_marginTop="?attr/actionBarSize"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="16dp"
+            android:editable="false"
+            android:id="@+id/input0"
+            android:layout_width="48dp"
+            android:layout_height="48dp" />
+        <EditText
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="16dp"
+            android:editable="false"
+            android:id="@+id/input1"
+            android:layout_width="48dp"
+            android:layout_height="48dp" />
+        <EditText
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="16dp"
+            android:editable="false"
+            android:id="@+id/input2"
+            android:layout_width="48dp"
+            android:layout_height="48dp" />
+        <EditText
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="16dp"
+            android:editable="false"
+            android:id="@+id/input3"
+            android:layout_width="48dp"
+            android:layout_height="48dp" />
+        <EditText
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="16dp"
+            android:editable="false"
+            android:id="@+id/input4"
+            android:layout_width="48dp"
+            android:layout_height="48dp" />
+
+    </LinearLayout>
 
 </RelativeLayout>
