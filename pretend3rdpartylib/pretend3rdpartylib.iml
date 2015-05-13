@@ -27,5 +27,6 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" exported="" name="pretend3rdpartylib.pretend3rdpartylib" level="project" />
   </component>
 </module>
