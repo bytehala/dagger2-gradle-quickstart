@@ -3,6 +3,8 @@ package com.noobgrammer.dagger2gradlequickstartexample;
 import android.os.Bundle;
 import android.widget.TextView;
 
+import com.example.SomeThirdPartyClass;
+
 import butterknife.InjectViews;
 
 
@@ -15,12 +17,15 @@ public class OutputActivity extends BaseActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        setContentView(R.layout.activity_output); // It's important to swap these 2 lines now, because ButterKnife.inject()
-        super.onCreate(savedInstanceState);      // in our superclass needs the layout to do InjectView
+        setContentView(R.layout.activity_output);
+        super.onCreate(savedInstanceState);
 
         int[] input = getIntent().getIntArrayExtra(EXTRA_INPUT_ARRAY);
+
+        SomeThirdPartyClass someClass = new SomeThirdPartyClass(); // Here, I'm introducing a hard dependency which Dagger 2 will fix for us
+        int[] sorted = someClass.sort(input);
         for(int i = 0; i < outputTexts.length; i++) {
-            outputTexts[i].setText(String.valueOf(input[i]));
+            outputTexts[i].setText(String.valueOf(sorted[i]));
         }
         setToolbarTitleText(R.string.output_title);
     }
