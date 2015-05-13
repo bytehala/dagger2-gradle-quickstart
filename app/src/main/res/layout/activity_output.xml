@@ -13,36 +13,41 @@
         <EditText
             android:layout_marginTop="16dp"
             android:layout_marginLeft="16dp"
-            android:editable="false"
             android:id="@+id/input0"
+            android:editable="false"
+            android:gravity="right"
             android:layout_width="48dp"
             android:layout_height="48dp" />
         <EditText
             android:layout_marginTop="16dp"
             android:layout_marginLeft="16dp"
-            android:editable="false"
             android:id="@+id/input1"
+            android:editable="false"
+            android:gravity="right"
             android:layout_width="48dp"
             android:layout_height="48dp" />
         <EditText
             android:layout_marginTop="16dp"
             android:layout_marginLeft="16dp"
-            android:editable="false"
             android:id="@+id/input2"
+            android:editable="false"
+            android:gravity="right"
             android:layout_width="48dp"
             android:layout_height="48dp" />
         <EditText
             android:layout_marginTop="16dp"
             android:layout_marginLeft="16dp"
-            android:editable="false"
             android:id="@+id/input3"
+            android:editable="false"
+            android:gravity="right"
             android:layout_width="48dp"
             android:layout_height="48dp" />
         <EditText
             android:layout_marginTop="16dp"
             android:layout_marginLeft="16dp"
-            android:editable="false"
             android:id="@+id/input4"
+            android:editable="false"
+            android:gravity="right"
             android:layout_width="48dp"
             android:layout_height="48dp" />
 
