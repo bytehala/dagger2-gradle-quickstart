@@ -5,6 +5,8 @@ import android.os.Bundle;
 import android.support.annotation.StringRes;
 import android.widget.TextView;
 
+import com.noobgrammer.dagger2gradlequickstartexample.dagger.components.ApplicationComponent;
+
 import butterknife.ButterKnife;
 import butterknife.InjectView;
 
@@ -28,5 +30,9 @@ public class BaseActivity extends Activity {
 
     protected void setToolbarTitleText(@StringRes int titleId) {
         toolbarTitleText.setText(titleId);
+    }
+
+    public ApplicationComponent getApplicationComponent() {
+        return ((MyApplication) getApplication()).getApplicationComponent();
     }
 }

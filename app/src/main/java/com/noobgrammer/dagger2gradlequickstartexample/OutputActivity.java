@@ -39,7 +39,4 @@ public class OutputActivity extends BaseActivity {
     }
 
 
-    public ApplicationComponent getApplicationComponent() {
-        return ((MyApplication) getApplication()).getApplicationComponent();
-    }
 }
