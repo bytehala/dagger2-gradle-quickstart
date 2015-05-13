@@ -3,4 +3,8 @@
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+
+    <string name="input_title">Input Here</string>
+    <string name="output_title">Output Here</string>
+    <string name="sort">Sort</string>
 </resources>
