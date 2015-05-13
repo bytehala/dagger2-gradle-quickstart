@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:background="@color/limePrimary"
+    >
+
+    <TextView
+        android:id="@+id/toolbarTitleText"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/app_name"
+        android:textSize="16sp"
+        android:gravity="center"
+        />
+</android.support.v7.widget.Toolbar>
