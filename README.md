@@ -3,6 +3,9 @@ A simple Dagger 2 tutorial, with instructions in the commit messages. The commit
 
 Issues, pull requests, and forks are encouraged.
 
+### Learning Resources
+I find the explanations here to be very helpful: http://fernandocejas.com/2015/04/11/tasting-dagger-2-on-android/
+
 
 **FAQ**
 
