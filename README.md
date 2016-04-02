@@ -7,7 +7,7 @@ Issues, pull requests, and forks are encouraged.
 I find the explanations here to be very helpful: http://fernandocejas.com/2015/04/11/tasting-dagger-2-on-android/
 
 
-**FAQ**
+### FAQ
 
 > Where is DaggerApplicationComponent? Your sample doesn't have it and I cannot even build your sample project!
   * Please wait for the project to build, or build it manually. Dagger 2 uses code generation to do its DI black magic.
